@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  color: #333; /* Fix text color issue */
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card .personal-info {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card .personal-info h2 {
+  margin: 10px 0 5px;
+}
+
+.card .address {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card .section {
+  text-align: center;
+  margin: 10px 0;
+}
